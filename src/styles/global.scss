@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222933;
+    
+}
+.buff-item .buff-description{
+
+    word-break: normal;
+}
+
+
+* {
+    font-family: 'Fira Code', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;;
+    /* el-drawer will have black outline when focused, use this to eliminate */
+    outline: none;
+    word-break: normal;
+   
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-sticky {
+    position: sticky;
+    top: 0;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.color-normal {
+    color: #ffffff;
+}
+
+.br-3 {
+    border-radius: 3px;
+}
+
+.br-50p {
+    border-radius: 50%;
+}
+
+.no-deco {
+    text-decoration: none;
+}
+
+
+.el-drawer__header{
+    background: #222933; 
+    color: white; 
+}
+.el-drawer__body,  .el-divider{
+    background-color: #222933;
+}
+.el-drawer__body {
+    overflow: auto;
+    background: #222933;
+    /* overflow-x: auto; */
+}
+.el-drawer__body, .el-drawer__header {
+    background: #222933;
+}
+.el-drawer__container ::-webkit-scrollbar{
+    display: none;
+    background: #222933;
+}
+
+.single-item {
+    font-size: 12px;
+    color: #ffffff;
+    background: #222933;
+    padding: 8px 0;
+    padding-left: 10px;
+    border-radius: 3px;
+    border-bottom: 1px solid #EBEEF5;
+    margin: 0;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.title3 {
+    font-size: 14px;
+    color: #ffffff;
+    /* color: white; */
+    /* box-shadow: 0 0 10px 1px #00000022; */
+    /* padding: 8px; */
+    padding: 8px 0;
+    /* border-radius: 3px; */
+    /* background: #564884; */
+    /* border-left: 3px solid #564884; */
+    /* border-: 3px solid #564884; */
+}
+
+.mona-scroll {
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 2px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #d4d4d4;
+    }
+}
